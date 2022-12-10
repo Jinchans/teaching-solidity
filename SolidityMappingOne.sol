@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
+// basic mapping
+
 contract PokemonContract {
 
     struct Pokemon {
