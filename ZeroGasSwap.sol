@@ -1,7 +1,7 @@
 pragma solidity ^0.8.17;
 
 // goal is to create a more gas efficient swap. On a dex 2 users submit transactions which are mined in seperate blocks.
-// In this method both tx's are mined in the same block and overall 50% less expensive gas fee on the network.
+// In this method with the help of a relayer both tx's in the swap are mined in the same block and overall 50% less expensive gas fee on the network.
 
 contract GaslessSwap {
     // The tokens being swapped
