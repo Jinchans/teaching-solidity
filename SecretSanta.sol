@@ -1,5 +1,7 @@
 pragma solidity ^0.8.17;
 
+// secret santa smart contract where users donate to another random participant.
+
 contract SecretSanta {
     // Struct to store information about each participant
     struct Participant {
